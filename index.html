@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DriftAI</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="logo.png" />
   </head>
   <body class="bg-black text-white font-sans">
     <!-- Navbar -->
-    <nav class="flex justify-between items-center p-6">
+    <nav class="flex justify-between items-center p-6 max-w-7xl mx-auto">
       <h1 class="text-2xl font-bold text-orange-400">DriftAI</h1>
-      <ul class="flex space-x-6">
+      <ul class="flex space-x-6 text-sm md:text-base">
         <li><a href="#features" class="hover:text-orange-400">Features</a></li>
         <li><a href="#pricing" class="hover:text-orange-400">Pricing</a></li>
         <li><a href="#contact" class="hover:text-orange-400">Contact</a></li>
@@ -18,26 +19,14 @@
     </nav>
 
     <!-- Hero Section -->
-    <!-- Hero Section with Logo -->
-<section class="text-center py-20 px-6">
-  <img src="logo.png" alt="DriftAI Logo" class="mx-auto w-32 md:w-40 lg:w-48 mb-6" />
-  <h2 class="text-4xl md:text-6xl font-bold mb-4">
-    Your Copilot for Small Business
-  </h2>
-  <p class="text-lg md:text-xl text-gray-400 mb-8">
-    AI-powered review insights & POS intelligence starting at ₹400/month.
-  </p>
-  <a href="#pricing">
-    <button class="bg-orange-400 text-black px-6 py-3 rounded-xl font-semibold hover:bg-orange-500 transition">
-      Get Started
-    </button>
-  </a>
-</section>
-
-      <h2 class="text-4xl md:text-6xl font-bold mb-4">
+    <section class="text-center py-20 px-6">
+      <div class="w-32 md:w-40 lg:w-44 mx-auto mb-6">
+        <img src="logo.png" alt="DriftAI Logo" class="w-full h-auto object-contain" />
+      </div>
+      <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
         Your Copilot for Small Business
       </h2>
-      <p class="text-lg md:text-xl text-gray-400 mb-8">
+      <p class="text-lg md:text-xl text-gray-400 max-w-xl mx-auto mb-8">
         AI-powered review insights & POS intelligence starting at ₹400/month.
       </p>
       <a href="#pricing">
@@ -47,32 +36,32 @@
       </a>
     </section>
 
-    <!-- Features -->
+    <!-- Features Section -->
     <section id="features" class="bg-gray-900 py-16 px-6">
       <h3 class="text-3xl font-bold text-center mb-12">What DriftAI Does</h3>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-gray-800 p-6 rounded-lg shadow hover:shadow-orange-400/20 transition">
+      <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div class="bg-gray-800 p-6 rounded-xl shadow hover:shadow-orange-400/20 transition">
           <h4 class="text-xl font-semibold mb-2">Sentiment Analysis</h4>
           <p class="text-gray-400">
             Real-time review monitoring with auto-tagged positive/negative themes.
           </p>
         </div>
-        <div class="bg-gray-800 p-6 rounded-lg shadow hover:shadow-orange-400/20 transition">
+        <div class="bg-gray-800 p-6 rounded-xl shadow hover:shadow-orange-400/20 transition">
           <h4 class="text-xl font-semibold mb-2">POS Smart Prompts</h4>
           <p class="text-gray-400">
-            Works quietly on your POS, nudging you with insights to boost sales or prevent churn.
+            DriftAI works quietly on your POS system, nudging you with business-critical insights.
           </p>
         </div>
-        <div class="bg-gray-800 p-6 rounded-lg shadow hover:shadow-orange-400/20 transition">
+        <div class="bg-gray-800 p-6 rounded-xl shadow hover:shadow-orange-400/20 transition">
           <h4 class="text-xl font-semibold mb-2">Custom Reports</h4>
           <p class="text-gray-400">
-            Monthly visual PDF reports showing trends, highlights, and what customers love or hate.
+            Get personalized PDF insights showing trends, gaps, and what customers love or complain about.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- Pricing -->
+    <!-- Pricing Section -->
     <section id="pricing" class="py-16 px-6 text-center">
       <h3 class="text-3xl font-bold mb-8">Pricing</h3>
       <div class="bg-gray-800 inline-block p-10 rounded-2xl shadow-lg">
@@ -90,15 +79,15 @@
       </div>
     </section>
 
-    <!-- Contact -->
+    <!-- Contact Section -->
     <section id="contact" class="bg-gray-900 py-16 px-6 text-center">
       <h3 class="text-3xl font-bold mb-8">Get in Touch</h3>
-      <p class="text-gray-400 mb-4">Have questions or want to demo DriftAI?</p>
-      <p class="text-orange-400 font-semibold">📩 hello@driftai.co.in</p>
+      <p class="text-gray-400 mb-4">Want a demo or have questions?</p>
+      <p class="text-orange-400 font-semibold text-lg">📩 hello@driftai.co.in</p>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-black py-6 text-center text-gray-600">
+    <footer class="bg-black py-6 text-center text-gray-500 text-sm">
       © 2025 DriftAI. All rights reserved.
     </footer>
   </body>
